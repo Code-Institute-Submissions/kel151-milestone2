@@ -1,14 +1,28 @@
 .welcomepage {
-    background-image: url(../images/tokyo2.jpg);
     width:100%;
     height:100vh;
-    background-size:cover;
-    background-position: center;    
+    background-image: url(../images/tokyo3.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: xxx-large;
+    padding-top: 175px;
 }
 
-.transbox {
+.boxed {
     background-color: black;
-    width: 100%;
-    height: 100vh;
-    opacity: 40%;
+    width: 20%;
+    height: 15vh;
+    margin: auto;
+    border-radius: 100px;
+    padding-top: 40px;    
+}
+
+.about {
+    background-color: black;
+    width: 30%;
+    height: 15vh;
+    margin-top: 260px;
+    margin-left: 660px;
+    border-radius: 20px;
 }
