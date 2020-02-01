@@ -5,24 +5,30 @@
     background-size: cover;
     text-align: center;
     color: white;
-    font-size: xxx-large;
+    font-size: xx-large;
     padding-top: 175px;
 }
 
 .boxed {
     background-color: black;
     width: 20%;
-    height: 15vh;
+    height: 10vh;
     margin: auto;
     border-radius: 100px;
-    padding-top: 40px;    
+    padding-top: 5vh;
+    padding-bottom: 1vh;
+    min-width: 40vh;  
+    text-align: center;  
+    opacity: 75%;
 }
 
 .about {
     background-color: black;
     width: 30%;
     height: 15vh;
-    margin-top: 260px;
-    margin-left: 660px;
     border-radius: 20px;
+    margin: auto;
+    margin-top: 12%;
+    text-align: center;
+    padding: 60px 30px 30px 30px;
 }
