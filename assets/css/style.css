@@ -40,3 +40,10 @@
     background-color: black;
     background-size: cover;
 }
+
+.contactpage {
+    width:100%;
+    height:100vh;
+    background-image: url(../images/seoul3.jpg);
+    background-size: cover;
+}
