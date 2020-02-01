@@ -37,6 +37,6 @@
 .mappage {
     width:100%;
     height:100vh;
-    background-image: url(../images/tokyo3.png);
+    background-color: black;
     background-size: cover;
 }
