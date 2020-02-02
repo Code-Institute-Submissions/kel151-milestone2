@@ -5,8 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!--Required meta tag that's supposed to be after Bootstrap(CSS)-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 </head>
+
 <body>
     <section>
         <div class="container-fluid">
@@ -45,6 +54,19 @@
         <div class="containter-fluid">
             <div class="contactpage row">
                 <div class="col-md-12 my-auto">
+                    <h2><u>Got Some Feedback?</u></h2>
+                    <!-- Included this disclaimer because user privacy policy and GDPR are 
+                        more relevant in today's climate than ever before -->
+                    <small class="form-text text-muted">I'll never share your personal details with anyone else.</small>
+                    <!-- I used placeholders here as default labelling in order to 
+                        adhere to common web development trends seen today, rather than using <label> elements -->
+                    <form action="#" method="post">
+                        <input type="text" class="form-control" id="name" placeholder="Name">
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+                        <small id="emailHelp"></small>
+                        <textarea class="form-control" rows="3" id="message" name="message" placeholder="Message"></textarea>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
 
                 </div>
 
