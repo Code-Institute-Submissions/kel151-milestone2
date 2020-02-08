@@ -33,6 +33,11 @@
     height: 100vh;
 }
 
+#map {
+    height: 59rem;
+    width: 100%;
+}
+
 .contactpage {
     height:100vh;
     background-image: url(../images/seoul3.jpg);

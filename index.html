@@ -82,7 +82,15 @@
 
     </footer>
     <script>
-        let APIKey = "AIzaSyBxVT96vkIfvGuSCWVfoSErjdEgkPiQirA"
+        function initMap() {
+            let map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 10,
+                center: {
+                    lat: 35.6762,
+                    lng: 139.6503
+                }
+            });
+        }
     </script>
     <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxVT96vkIfvGuSCWVfoSErjdEgkPiQirA&callback=initMap"></script>
