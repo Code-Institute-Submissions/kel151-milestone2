@@ -84,13 +84,35 @@
     <script>
         function initMap() {
             let map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 10,
+                zoom: 9,
                 center: {
                     lat: 35.6762,
                     lng: 139.6503
                 }
             });
+
+        let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+        let locations = [
+            { lat: 35.7289825, lng: 139.7197757 },
+            { lat: 35.696173099999996, lng: 139.5706324025751},
+            { lat: 35.71637375, lng: 139.5127410728496},
+            { lat: 35.71910615, lng: 139.77601900459837},
+            { lat: 35.6307, lng: 139.8829}
+        ];
+
+        let markers = locations.map(function(location, i) {
+            return new google.maps.Marker({
+                position: location,
+                label: labels[i % labels.length]
+            });
+        });
+
+        let markerCluster = new MarkerClusterer(map, markers,
+            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+
         }
+
     </script>
     <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxVT96vkIfvGuSCWVfoSErjdEgkPiQirA&callback=initMap"></script>
