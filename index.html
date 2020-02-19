@@ -82,6 +82,20 @@
 
     </footer>
     <script>
+
+let anime = [
+            { lat: 35.7289825, lng: 139.7197757 },
+            { lat: 35.696173099999996, lng: 139.5706324025751},
+            { lat: 35.71637375, lng: 139.5127410728496},
+            { lat: 35.71910615, lng: 139.77601900459837},
+            { lat: 35.6307, lng: 139.8829}
+        ];
+
+let locations = anime;
+
+let videogames = []
+
+
         function initMap() {
             let map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 9,
@@ -92,14 +106,6 @@
             });
 
         let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-        let locations = [
-            { lat: 35.7289825, lng: 139.7197757 },
-            { lat: 35.696173099999996, lng: 139.5706324025751},
-            { lat: 35.71637375, lng: 139.5127410728496},
-            { lat: 35.71910615, lng: 139.77601900459837},
-            { lat: 35.6307, lng: 139.8829}
-        ];
 
         let markers = locations.map(function(location, i) {
             return new google.maps.Marker({
@@ -114,7 +120,7 @@
         }
 
     </script>
-    <script src="/maps/documentation/javascript/examples/markerclusterer/markerclustererplus@4.0.1.min.js"></script>
+    <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxVT96vkIfvGuSCWVfoSErjdEgkPiQirA&callback=initMap"></script>
 </body>
 </html>
