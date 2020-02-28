@@ -128,9 +128,9 @@ let videogames = [
 
         }
 
-        document.getElementById("select").addEventListener("change",changefunction);
+        document.getElementById(options).addEventListener("change",changefunction);
         function changefuntion(){
-            let secondoption = document.getElementById("select").value 
+            let secondoption = document.getElementById(options).value 
             if (secondoption == "animemanga"){
             let locations = anime
             } else {
