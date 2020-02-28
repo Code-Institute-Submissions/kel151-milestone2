@@ -104,7 +104,7 @@ let videogames = [
             { lat: 35.7023, lng: 139.7745},
         ];
 
-let locations = videogames
+let locations = videogames;
 
 
         function initMap() {
@@ -134,6 +134,7 @@ let locations = videogames
         function changefuntion(){
             let secondoption = document.getElementById("select").value 
             if secondoption == "animemanga" 
+            let locations = "anime"
             else locations = "videogames"
             let map = new google.maps.Map(document.getElementById("map")
         }
