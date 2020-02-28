@@ -129,14 +129,15 @@ videogames = [
         }
 
         document.querySelector(options).addEventListener("change",changefunction);
-        function changefuntion(){
+        selectElement.addEventListener('change', (event) => {
+        const result = document.querySelector('.result');
             let secondoption = document.querySelector(options).value 
             if (secondoption == "animemanga"){
             let locations = anime
             } else {
                 locations = videogames
             }
-        }
+        
 
     </script>
     <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
