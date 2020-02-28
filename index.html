@@ -133,10 +133,11 @@ let locations = videogames;
         document.getElementById("select").addEventListener("change",changefunction);
         function changefuntion(){
             let secondoption = document.getElementById("select").value 
-            if secondoption == "animemanga" 
+            if (secondoption == "animemanga"){
             let locations = "anime"
-            else locations = "videogames"
-            let map = new google.maps.Map(document.getElementById("map")
+            } else {
+                locations = "videogames"
+            ]
         }
 
     </script>
