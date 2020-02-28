@@ -41,6 +41,11 @@
         <div class="container-fluid">
             <div class="mappage row">
                 <div class="col-6 my-auto">
+                    <label for = "options">Choose your interest:</label>
+                    <select id="options">
+                        <option value="animemanga">Anime and Manga</option>
+                        <option value="videogames">Video Games</option>
+                    </select>
 
                 </div>
 
@@ -92,7 +97,14 @@ let anime = [
 
 let locations = anime;
 
-let videogames = []
+let videogames = [
+            { lat: 35.6620, lng: 139.6990},
+            { lat: 35.6616, lng: 139.6982},
+            { lat: 35.6992, lng: 139.7711},
+            { lat: 35.7023, lng: 139.7745},
+        ];
+
+let locations = videogames
 
 
         function initMap() {
@@ -116,6 +128,14 @@ let videogames = []
         let markerCluster = new MarkerClusterer(map, markers,
             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
 
+        }
+
+        document.getElementById("select").addEventListener("change",changefunction);
+        function changefuntion(){
+            let secondoption = document.getElementById("select").value 
+            if secondoption == "animemanga" 
+            else location - "videogames"
+            let map = new google.maps.Map(document.getElementById("map")
         }
 
     </script>
