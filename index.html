@@ -87,9 +87,41 @@
 
     </footer>
     <script>
+       const locations = [
+           {
+               lat: 3.033870, lng: 101.586777,
+               name: "Studio Ghibli Museum",
+               category: "animemanga",
+               website: "http://www.ghibli-museum.jp/en/"
+           },
+
+           {
+               lat: 35.7288, lng: 139.7192,
+               name: "Pokemon Center Mega Tokyo",
+               category: "animemanga",
+               website: "https://www.pokemon.co.jp/gp/pokecen/megatokyo/"
+           },
+
+           {
+               lat: 35.6586, lng: 139.7454,
+               name: "Tokyo One Piece Tower",
+               category: "animemanga",
+               website: "https://onepiecetower.tokyo/?lang=en"
+           },
+
+           {
+               lat: 35.6245, lng: 139.7755,
+               name: "Odaiba Gundam",
+               category: "animemanga",
+               website: "https://www.japanvisitor.com/japan-city-guides/gundam"
+           },
+
+           
+       ]
+
         function initMap () {
-            let map = new google.maps.Map(document.getElementById("map"). {
-                zoom: 3,
+            let map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 10,
                 center: {
                     lat:35.6762,
                     lng:139.6503
