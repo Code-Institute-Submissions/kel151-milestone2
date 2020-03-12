@@ -42,7 +42,7 @@
             <div class="mappage row">
                 <div class="col-6 my-auto">
                     <label for = "options">Choose your interest:</label>
-                    <select id="options">
+                    <select id="options" onchange="initMap();"> 
                         <option value="animemanga">Anime and Manga</option>
                         <option value="videogames">Video Games</option>
                     </select>
@@ -146,7 +146,9 @@
            
        ]
 
-        function initMap () {
+        function initMap() {
+            var selectBox = document.getElementById("options");
+            var type = selectBox.options[selectBox.selectedIndex].value;
             let map = new google.maps.Map(document.getElementById("map"), {
                 zoom: 10,
                 center: {
@@ -154,6 +156,19 @@
                     lng:139.6503
                 }
             });
+            for(let location of locations){
+                if(location.category==type){
+                    // console.log(location)
+                    var myLatlng = new google.maps.LatLng(location.lat,location.lng);
+                    var marker = new google.maps.Marker({
+                        postion: myLatlng,
+                        title: location.name
+                    });
+                    console.log(marker)
+                    marker.setMap(map);
+
+                }
+            }
         }
     </script>
     <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
