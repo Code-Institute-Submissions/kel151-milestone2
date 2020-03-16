@@ -21,7 +21,24 @@
 </head>
 
 <body>
-    <section>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
+        <a href="#" class="navbar-brand">Home <i class="far fa-smile"></i></a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#search" class="nav-link">Search</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="intro">
         <div class="container-fluid">
             <div class="welcomepage row">
                 <div class="col-12">
@@ -37,7 +54,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="search">
         <div class="container-fluid">
             <div class="mappage row">
                 <div class="col-6 my-auto">
@@ -60,7 +77,7 @@
         </div>
     </section>
 
-    <section>
+    <section id="contact">
         <div class="container-fluid">
             <div class="contactpage row">
                 <div class="col-12 my-auto">

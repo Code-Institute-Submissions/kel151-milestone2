@@ -54,3 +54,7 @@
     width: 60%;
     margin-left: 19%;
 }
+
+html {
+    scroll-behavior: smooth;
+}
