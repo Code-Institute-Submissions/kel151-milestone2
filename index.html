@@ -237,13 +237,28 @@
     // let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     // let markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
-
+    var InfoWindow
     var map;
       function initMap() {
+        infowindow = new google.maps.InfoWindow;
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: 35.6762, lng: 139.6503},
           zoom: 12
         });
+
+        for (i = 0; i < locations.length; i++) {  
+    marker = new google.maps.Marker({
+         position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
+         map: map
+    });
+
+    google.maps.event.addListener(marker, 'click', (function(marker, i) {
+         return function() {
+             infowindow.setContent(locations[i].name);
+             infowindow.open(map, marker);
+         }
+    })(marker, i));
+} 
       }
     </script>
     <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
