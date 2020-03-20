@@ -206,11 +206,11 @@
             content: contentString
              });
 
-        let marker = new google.maps.Marker({
-            position: uluru,
-            map: map,
-            title: 'Uluru (Ayers Rock)'
-             });
+        // let marker = new google.maps.Marker({
+        //     position: uluru,
+        //     map: map,
+        //     title: 'Uluru (Ayers Rock)'
+        //      });
             //where infowindow code ends, and the code that would have come right after initMap begins
             for(let location of locations){
                 if(location.category==type){
@@ -236,7 +236,7 @@
     });
 
     let markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
-}
+
     </script>
     <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxVT96vkIfvGuSCWVfoSErjdEgkPiQirA&callback=initMap"></script>
