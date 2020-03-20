@@ -170,16 +170,16 @@
            
     //    ]
 
-        function initMap() {
-            var selectBox = document.getElementById("options");
-            var type = selectBox.options[selectBox.selectedIndex].value;
-            let map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 12,
-                center: {
-                    lat:35.6762,
-                    lng:139.6503
-                }
-            });
+        // function initMap() {
+        //     var selectBox = document.getElementById("options");
+        //     var type = selectBox.options[selectBox.selectedIndex].value;
+        //     let map = new google.maps.Map(document.getElementById("map"), {
+        //         zoom: 12,
+        //         center: {
+        //             lat:35.6762,
+        //             lng:139.6503
+        //         }
+        //     });
 
     //     function createMarkers () {
     //         let markers = locations.map(function(location, i) {
@@ -238,6 +238,13 @@
 
     // let markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 
+    var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 35.6762, lng: 139.6503},
+          zoom: 12
+        });
+      }
     </script>
     <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxVT96vkIfvGuSCWVfoSErjdEgkPiQirA&callback=initMap"></script>
