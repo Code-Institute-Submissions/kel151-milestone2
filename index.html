@@ -169,56 +169,56 @@
            },
            
        ];
+    
+        function initMap() {
+            var selectBox = document.getElementById("options");
+            var type = selectBox.options[selectBox.selectedIndex].value;
+            let map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 12,
+                center: {
+                    lat:35.6762,
+                    lng:139.6503
+                }
+            });
+            for(let location of locations){
+                if(location.category==type){
+                    console.log(location)
+                    var myLatlng = new google.maps.LatLng(location.lat,location.lng);
+                    var marker = new google.maps.Marker({
+                        position: myLatlng,
+                        title: location.name
+                    });
+                    console.log(marker)
+                    marker.setMap(map);
+                }
+            }
+        }
 
-        // function initMap() {
-        //     var selectBox = document.getElementById("options");
-        //     var type = selectBox.options[selectBox.selectedIndex].value;
-        //     let map = new google.maps.Map(document.getElementById("map"), {
-        //         zoom: 12,
-        //         center: {
-        //             lat:35.6762,
-        //             lng:139.6503
-        //         }
-        //     });
-    //         for(let location of locations){
-    //             if(location.category==type){
-    //                 // console.log(location)
-    //                 var myLatlng = new google.maps.LatLng(location.lat,location.lng);
-    //                 var marker = new google.maps.Marker({
-    //                     position: myLatlng,
-    //                     title: location.name
-    //                 });
-    //                 console.log(marker)
-    //                 marker.setMap(map);
-    //             }
-    //         }
-    //     }
-    var InfoWindow
-    var map;
-      function initMap() {
-        infowindow = new google.maps.InfoWindow;
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 35.6762, lng: 139.6503},
-          zoom: 12
-        });
-
-        for (i = 0; i < locations.length; i++) {  
-    marker = new google.maps.Marker({
-         position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
-         map: map
-    });
+//     var InfoWindow
+//     var map;
+//       function initMap() {
+//         infowindow = new google.maps.InfoWindow;
+//         map = new google.maps.Map(document.getElementById('map'), {
+//           center: {lat: 35.6762, lng: 139.6503},
+//           zoom: 12
+//         });
+//         for (i = 0; i < locations.length; i++) {  
+//     marker = new google.maps.Marker({
+//          position: new google.maps.LatLng(locations[i].lat, locations[i].lng),
+//          map: map
+//     });
  
-    google.maps.event.addListener(marker, 'click', (function(marker, i) {
-         return function() {
-             infowindow.setContent('<a href="' + locations[i].website + '">' + locations[i].name + '</a>');
-             infowindow.open(map, marker);
-         }
-    })(marker, i));
-} 
+//     google.maps.event.addListener(marker, 'click', (function(marker, i) {
+//          return function() {
+//              infowindow.setContent('<a href="' + locations[i].website + '">' + locations[i].name + '</a>');
+//              infowindow.open(map, marker);
+//          }
+//     })(marker, i));
+// } 
 
-var markerCluster = new MarkerClusterer(map, markers,
-            {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-      }
+// var markerCluster = new MarkerClusterer(map, markers,
+//             {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
+//       }
     </script>
     <script src="https://unpkg.com/@google/markerclustererplus@4.0.1/dist/markerclustererplus.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxVT96vkIfvGuSCWVfoSErjdEgkPiQirA&callback=initMap"></script>
