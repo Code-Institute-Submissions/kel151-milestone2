@@ -254,7 +254,7 @@
 
     google.maps.event.addListener(marker, 'click', (function(marker, i) {
          return function() {
-             infowindow.setContent(locations[i].name + locations[i].website);
+             infowindow.setContent('<a href="' + locations[i].website + '">' + locations[i].name + '</a>');
              infowindow.open(map, marker);
          }
     })(marker, i));
