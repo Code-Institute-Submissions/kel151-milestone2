@@ -180,6 +180,15 @@
                     lng:139.6503
                 }
             });
+
+        function createMarkers () {
+            let markers = locations.map(function(location, i) {
+        return new google.maps.Marker({
+            position: location,
+            label: labels[i % labels.length]
+        });
+        });
+    }
         //Infowindow part put in here because it comes right after initMap code in the Google docs example
         let contentString = '<div id="content">'+
             '<div id="siteNotice">'+
@@ -227,13 +236,6 @@
         }
     //map clusters part//
     let labels = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-    let markers = locations.map(function(location, i) {
-        return new google.maps.Marker({
-            position: location,
-            label: labels[i % labels.length]
-        });
-    });
 
     let markerCluster = new MarkerClusterer(map, markers, { imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m' });
 
