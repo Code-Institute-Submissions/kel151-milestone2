@@ -114,7 +114,7 @@
        const locations = [
            {
                lat: 35.6962, lng: 139.5704,
-               name: "Studio Ghibli Museum",
+               name: "Studio Ghibli Museum<p>",
                category: "animemanga",
                website: "http://www.ghibli-museum.jp/en/"
            },
@@ -254,7 +254,7 @@
 
     google.maps.event.addListener(marker, 'click', (function(marker, i) {
          return function() {
-             infowindow.setContent(locations[i].name);
+             infowindow.setContent(locations[i].name + locations[i].website);
              infowindow.open(map, marker);
          }
     })(marker, i));
