@@ -31,6 +31,8 @@
 .mappage {
     background-color: black;
     height: 100vh;
+    color: white;
+    text-align: center;
 }
 
 /* #map {
