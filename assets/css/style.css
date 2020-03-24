@@ -6,12 +6,6 @@
     
 }
 
-@media only screen and (min-width: 1000px) {
-    .about{
-          width: 50%
-      }
-  }
-
 .title {
     width: 100%;
     padding: 1rem;
@@ -99,3 +93,16 @@ html {
  }
  .s-m a:hover > i{
     transform: scale(1.6) rotate(25deg);
+ }
+
+ @media only screen and (min-width: 1000px) {
+    .title{
+          width: 20%
+      }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .about{
+          width: 50%
+      }
+  }
