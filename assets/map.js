@@ -18,7 +18,7 @@ function initMap() {
     var selectBox = document.getElementById("options");
     var type = selectBox.options[selectBox.selectedIndex].value;
     let map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 12,
+        zoom: 9,
         center: {
             lat:35.6762,
             lng:139.6503
@@ -43,7 +43,7 @@ function initMap() {
             position: location.coords,
             label: labels[i % labels.length]
         });
-        
+
         google.maps.event.addListener(marker, 'click', (function(marker) {
             return function() {
                 infowindow.setContent('<a href="' + location.website + '" target="_blank">' + location.name + '</a>');
