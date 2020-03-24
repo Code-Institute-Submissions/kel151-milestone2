@@ -39,29 +39,22 @@ function initMap() {
      * These markers will be stored in an array call `markers`
      */
     let markers = filteredLocations.map(function(location, i) {
-        return new google.maps.Marker({
+        let marker = new google.maps.Marker({
             position: location.coords,
             label: labels[i % labels.length]
         });
+        
+        google.maps.event.addListener(marker, 'click', (function(marker) {
+            return function() {
+                infowindow.setContent('<a href="' + location.website + '" target="_blank">' + location.name + '</a>');
+                infowindow.open(map, marker);
+            }
+        })(marker));
+
+        return marker;
     });
 
     // Set the marker cluster image for instances where multiple markers are close together
     let markerCluster = new MarkerClusterer(map, markers,
         {imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'});
-    
-    /**
-     * Iterate over each marker and create a new infoWindow for each marker. Inside,
-     * we'll iterate over each of the locations, so that each infoWindow can contain information
-     * about the location. In this instance, the name and website address
-     */
-    for (let marker of markers) {
-        for (let location of filteredLocations) {
-            google.maps.event.addListener(marker, 'click', (function(marker) {
-                return function() {
-                    infowindow.setContent('<a href="' + location.website + '" target="_blank">' + location.name + '</a>');
-                    infowindow.open(map, marker);
-                }
-            })(marker));
-        }
-    }
 }
