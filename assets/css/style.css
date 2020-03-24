@@ -33,10 +33,16 @@
     height: 100vh;
 }
 
-#map {
+/* #map {
     height: 100vh;
     width: 100%;
     border-radius: 40%;
+} */
+
+#map {
+    height: 80vh;
+    width: 100%;
+    border-radius: 3%;
 }
 
 .contactpage {
