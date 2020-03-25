@@ -8,7 +8,7 @@ For my second milestone project, I choose to create a site in that would show th
  A live demo can be found [here](https://kel151.github.io/milestone2/)
  
  Here is the responsiveness preview:
- ![Responsive View](assets/geektripresponse.png)
+ ![Responsive View](assets/images/geektripresponse.png)
 
 ## UX
 ### User Stories
