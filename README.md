@@ -87,6 +87,8 @@ The third step of my testing involved the utilization of [Code Verifier](https:/
 
 It is worth noting that 3 of the 4 warnings are from code provided by  the [EmailJS doc on how to create their contact forms.](https://www.emailjs.com/docs/tutorial/creating-contact-form/)
 
+The fourch step of my testing involved passing my JavaScipt code through [Jshint](https://jshint.com/), and I had no major issues.
+
 ## Deployment
 This site is hosted on GitHub pages and it's deployed directly using the master branch. The deployed site will update automatically when new commits are made and then pushed from VSCode. To deploy the site correctly, the landing page must be named 'index.html'.
 
