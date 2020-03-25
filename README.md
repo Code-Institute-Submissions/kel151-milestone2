@@ -90,34 +90,21 @@ It is worth noting that 3 of the 4 warnings are from code provided by  the [Emai
 ## Deployment
 This site is hosted on GitHub pages and it's deployed directly using the master branch. The deployed site will update automatically when new commits are made and then pushed from VSCode. To deploy the site correctly, the landing page must be named 'index.html'.
 
-To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/kel151/1stmilestoneproject.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone https://github.com/kel151/milestone2.git into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
 ## Credit
 ### Content
-All of text in the "About/A Little About Me..." section was written by me.
+All of text in the "About" section was written by me.
 
 ### Media
-The images used in this project were taken from <a href="https://undraw.co/">Undraw</a>, an open license and highly customizable resource that I greatly recommend. 
-
-## Colour-blindness research sources:
-Tuchkov, I. 2018. http://www.garethbotha.com/color-blindness-usability-testing/. Accessed: November 5th 2019.<p>
-
-Bigman, A. 2012. <a href="https://99designs.ie/blog/tips/designers-need-to-understand-color-blindness/">Why all designers need to understand color blindness</a>. Accessed: November 5th 2019.
-
-Hiller, L. 2018. <a href="https://econsultancy.com/considering-colour-blindness-in-ux-design-with-five-examples/">Considering colour blindness in UX design (with five examples)</a>. Accessed: November 5th 2019.
-  
-Cravit, R. 2019. <a href="https://venngage.com/blog/color-blind-friendly-palette/">How to Use Color Blind Friendly Palettes to Make Your Charts Accessible</a>. Accessed: November 5th 2019.
-
-Botha, G. 2017. <a href="http://www.garethbotha.com/color-blindness-usability-testing/">Color Blindness in Usability Testing</a>. Accessed: November 5th 2019.
+The images used in this project were taken from <a href="https://unsplash.com//">Unsplash</a>, an open license and highly customizable resource that I greatly recommend. 
 
 ## Acknowledgements
 <ul>
  <li>My mentor, Aaron Sinnot, for all of his patience, advice, and recommendations.</li>
  <li>My friend and fellow member of the Code Institute Slack Community, Mia, for all of her advice, kindness, and encouragement.</li>
  <li>The Student Care team, particularly Claire Lally, for the constant support, encouragement, and check-in messages.</li>
- <li>Anthony O'Brien, a fellow member of the Code Institute Slack Community, for his patience, tenacity, and perpetual willingness to help, no matter how late.</li>
+ <li>The Code Insitute tutpring team (particularly Michael, Samantha, Scott, Xavier) for their patience perpetual willingness to help, no matter how late.</li>
 </ul>
-
-The inspiration for this project came from <a href="https://github.com/Code-Institute-Solutions/StudentExampleProjectGradeFive">a portfolio by Haley Schafer</a>, which was used to expemplify what a high quality milestone 1 project could be.
 
 <strong>This is for educational use.</strong>
