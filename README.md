@@ -82,8 +82,7 @@ The first step of my testing began by using <a href="http://ami.responsivedesign
 
 The second stage involved sharing the deployed link with a few colleagues and friends to double check whether it was actually responsive or not.
 
-The third step of my testing involved the utilization of [Code Verifier](https://validator.w3.org/), which yielded the following result:
-![Code Verifier Test](assets/img/cvtest.PNG)
+The third step of my testing involved the utilization of [Code Verifier](https://validator.w3.org/), the result of which had no errors, but 4 warnings:(assets/images/warnings.png)
 
 ## Deployment
 This site is hosted on GitHub pages and it's deployed directly using the master branch. The deployed site will update automatically when new commits are made and then pushed from VSCode. To deploy the site correctly, the landing page must be named 'index.html'.
