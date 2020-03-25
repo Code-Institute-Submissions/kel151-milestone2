@@ -33,15 +33,6 @@
                 // generate the contact number value
                 this.contact_number.value = Math.random() * 100000 | 0;
                 emailjs.sendForm("gmail", "contact_form", this);
-                // Entry validation JS to prevent the submission of empty fields (Code from W3Schools)
-                let x = document.forms["contact-form"]["user_name", "user_email", "message"].value;
-                if (x == "") {
-                    alert("All fields must be filled");
-                    return false;
-                }
-                // JS to clear form after user clicks the submit button for better UX (Code from W3 Schools)
-                document.getElementById("contact-form").reset();
-            }
             });
         }
     </script>
@@ -119,12 +110,12 @@
                         more relevant in today's climate than ever before -->
                     <small class="form-text text-muted">We'll never share your personal details with anyone else.</small>
                     <!-- Contact form. Opted for place holders instead of labels to adhere to current development trends as well as yield better UX -->
-                    <form id="contact-form" name="contact-form" action="/action_page.php" onsubmit="return validateForm()" method="post" required>
+                    <form id="contact-form" name="contact-form" action="/action_page.php" method="post" required>
                         <input type="hidden" name="contact_number">
                         <input type="text" class="form-control" name="user_name" placeholder="Name">
                         <input type="email" class="form-control" name="user_email" placeholder="Email">
                         <textarea name="message" class="form-control" rows="3" placeholder="Message"></textarea>
-                        <input type="submit" value="Send" onclick="clearForm()">
+                        <input type="submit" value="Send">
                     </form>
 
                 </div>
