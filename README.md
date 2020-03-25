@@ -12,9 +12,10 @@ For my second milestone project, I choose to create a site in that would show th
 
 ## UX
 ### User Stories
-As an employer, I want to be able to easily, swiftly, and seamlessly find a list of Kelvin’s skills and his proficiency in each one.<p>
-As a recruiter, I want to be able to easily, swiftly, and seamlessly view all of Kelvin’s software development and or marketing projects, both past and present.<p>
-As a member of the colour-blind community, I want to be able to clearly view the information on this website without any serious difficulties brought about by my vision.<p>
+As someone who enjoys travel, I want to be able to find interesting locations to visit in Tokyo, Japan.
+As a fan of anime and manda, I want to know where in Japan to go to cater to my interest.
+As a fan of video games, I want to be able to find locations that pertain to video games.
+As someone who enjoys aesthetics, I want to view a sight that is both pleasing to the eye and on brand for the theme of "geeks" and "nerds".<p>
 
 ### Strategy
 My goal was to build a portfolio that allows the user to find and view the information they want in as little steps as possible (across all devices) without compromising aesthetic appeal.<p>
