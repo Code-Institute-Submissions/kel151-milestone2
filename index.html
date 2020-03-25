@@ -43,11 +43,13 @@
         <div class="container-fluid">
             <div class="welcomepage row">
                 <div class="col-12">
+                    <!-- Title in its own div so as to be able to enclose it in a semi-opaque box that seems to hover on top of the background image -->
                     <div class="title">
                         <h1>GeekTrip</h1>
                     </div>
 
                     <div class="about">
+                        <!-- About info in its own div so as to be able to enclose it in a semi-opaque box that seems to hover on top of the background image -->
                         <p>Looking for cool places to visit in Tokyo? GeekTrip's got you covered. We've highlighted our top 4 tourist spots for anime and manga nerds and video game geeks. All you need to do is select your interest in the dropdown menu below :) </p>
                     </div>
                 </div>
@@ -59,6 +61,7 @@
         <div class="container-fluid">
             <div class="mappage row">
                 <div class="col-12 col-md-6 my-auto">
+                    <!-- Dropdown that allows the user to select their interest and see relevant locations rendered on map -->
                     <label for = "options">Choose your interest:</label>
                     <select id="options" onchange="initMap();"> 
                         <option value="animemanga">Anime and Manga</option>
@@ -68,6 +71,7 @@
                 </div>
 
                 <div class="col-12 col-md-6 my-auto">
+                    <!-- Map to render map -->
                     <div id="map">
 
                     </div>
