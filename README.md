@@ -26,19 +26,17 @@ The purpose of this project was built a wesite that would show the suer the top 
  This project was also an opportunity for me to display my skill in HTML, CSS, and JS, as well as showcase a my comptentence with the utilisation of APIs, aprtilcaurly those from Google and EmailJS.<p>
  
 ### Surface
-Given that the project is centered upon Tokyo, and its prevailing themes are anime, manga, and video games, I wanted an aesthetic that would remain "on brand". Tokyo, particularly its gaming and tech scene, is known for its neons and flashing lights. I wanted to incoprate that element into the site's design while preventing them from being too overpowering. Therefore, I opted for carefuly curated, theme-related images as background for the first and lst pages, separated by a respectable portion of blace space on the second page, to break up the wall of colour and prevent the aeshetic from being too jarring.<p>
+Given that the project is centered upon Tokyo, and its prevailing themes are anime, manga, and video games, I wanted an aesthetic that would remain "on brand". Tokyo, particularly its gaming and tech scene, is known for its neons and flashing lights. I wanted to incoprate that element into the site's design while preventing them from being too overpowering. Therefore, I opted for carefuly curated, theme-related images as background for the first and lst pages, separated by a respectable portion of black space on the second page, to break up the wall of colour and prevent the aeshetic from being too jarring.<p>
  
 ### Skeleton
  <ul>
-    <li>Landing Page</li>
-    <li>About</li>
-    <li>Skills</li>
-    <li>Projects</li>
+    <li>Landing Page (which contains the about info for more efficient use of screen space)</li>
+    <li>Search Mape</li>
     <li>Contact</li>
 </ul>
 
 ### Structure
-[Here](wireframes) are a list of the wireframes I developed during the inital mock-up. They are quite self-explanatory and rudimentary, but they didn't need to be overly compelx. They merely needed to serve as a base for me to extrapolate upon. Two of the wireframes had to be redone because I was having trouble with creating responsive speechbubbles, so I opted for basic rectangles instead because they are far easier to make responsive. This is in reference to the about page and the projects page, so you will see two wireframes for each of those. 
+[Here](wireframes) are a list of the wireframes I developed for this project using [Balsamiq](https://balsamiq.com/).
 
 ### Features
 <ul>
