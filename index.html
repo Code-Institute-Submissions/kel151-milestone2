@@ -18,6 +18,15 @@
 
     <!--Required meta tag that's supposed to be after Bootstrap(CSS)-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.send("gmail", "geektrip", templateParams, userID);
+            emailjs.init("user_MYwFFLtpXfxcryP8yyImH");
+        })();
+    </script>
 </head>
 
 <body>
