@@ -104,7 +104,7 @@ The images used in this project were taken from <a href="https://unsplash.com//"
  <li>My mentor, Aaron Sinnot, for all of his patience, advice, and recommendations.</li>
  <li>My friend and fellow member of the Code Institute Slack Community, Mia, for all of her advice, kindness, and encouragement.</li>
  <li>The Student Care team, particularly Claire Lally, for the constant support, encouragement, and check-in messages.</li>
- <li>The Code Insitute tutpring team (particularly Michael, Samantha, Scott, Xavier) for their patience perpetual willingness to help, no matter how late.</li>
+ <li>The Code Insitute tutpring team (particularly Michael, Samantha, Scott, Xavier, and Tim) for their patience perpetual willingness to help, no matter how late.</li>
 </ul>
 
 <strong>This is for educational use.</strong>
