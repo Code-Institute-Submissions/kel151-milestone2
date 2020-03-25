@@ -33,11 +33,7 @@
                 // generate the contact number value
                 this.contact_number.value = Math.random() * 100000 | 0;
                 emailjs.sendForm("gmail", "contact_form", this);
-            });
-        }
-
-        // Entry validation JS to prevent the submission of empty fields (Code from W3Schools)
-        function validateForm() {
+                // Entry validation JS to prevent the submission of empty fields (Code from W3Schools)
                 let x = document.forms["contact-form"]["user_name", "user_email", "message"].value;
                 if (x == "") {
                     alert("All fields must be filled");
@@ -46,6 +42,8 @@
                 // JS to clear form after user clicks the submit button for better UX (Code from W3 Schools)
                 document.getElementById("contact-form").reset();
             }
+            });
+        }
     </script>
 </head>
 
