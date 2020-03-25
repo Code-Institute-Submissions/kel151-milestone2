@@ -82,7 +82,10 @@ The first step of my testing began by using <a href="http://ami.responsivedesign
 
 The second stage involved sharing the deployed link with a few colleagues and friends to double check whether it was actually responsive or not.
 
-The third step of my testing involved the utilization of [Code Verifier](https://validator.w3.org/), the result of which had no errors, but 4 warnings:(assets/images/warnings.png)
+The third step of my testing involved the utilization of [Code Verifier](https://validator.w3.org/), the result of which had no errors, but 4 warnings as seen here:
+![Warninggs](assets/images/warnings.png)
+
+It is worth noting that 3 of the 4 warnings are from code provided by  the[EmailJS doc on how to create their contact forms](https://www.emailjs.com/docs/tutorial/creating-contact-form/). 
 
 ## Deployment
 This site is hosted on GitHub pages and it's deployed directly using the master branch. The deployed site will update automatically when new commits are made and then pushed from VSCode. To deploy the site correctly, the landing page must be named 'index.html'.
