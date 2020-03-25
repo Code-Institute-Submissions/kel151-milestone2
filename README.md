@@ -23,7 +23,7 @@ Tokyo is large city, known for many things such as food, fashion, technology, cu
 
 ### Scope
 The purpose of this project was built a wesite that would show the suer the top 4 tourist spots in Tokyo, Japan, depending on whether they were interested in anime and manga or video games.<p>
- This project was also an opportunity for me to display my skill in HTML, CSS, and JS, as well as showcase a my comptentence with the utilisation of APIs, aprtilcaurly those from Google and EmailJS.<p>
+ This project was also an opportunity for me to display my skill in HTML, CSS, and JS, as well as showcase a my comptentence with the utilisation of APIs, particularly the Google Maps API and the one from [EmailJS](https://www.emailjs.com/).<p>
  
 ### Surface
 Given that the project is centered upon Tokyo, and its prevailing themes are anime, manga, and video games, I wanted an aesthetic that would remain "on brand". Tokyo, particularly its gaming and tech scene, is known for its neons and flashing lights. I wanted to incoprate that element into the site's design while preventing them from being too overpowering. Therefore, I opted for carefuly curated, theme-related images as background for the first and lst pages, separated by a respectable portion of black space on the second page, to break up the wall of colour and prevent the aeshetic from being too jarring.<p>
