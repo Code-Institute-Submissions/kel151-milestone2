@@ -15,8 +15,8 @@ function filterByCategory(category) {
 
 function initMap() {
     infowindow = new google.maps.InfoWindow;
-    var selectBox = document.getElementById("options");
-    var type = selectBox.options[selectBox.selectedIndex].value;
+    let selectBox = document.getElementById("options");
+    let type = selectBox.options[selectBox.selectedIndex].value;
     let map = new google.maps.Map(document.getElementById("map"), {
         zoom: 9,
         center: {

@@ -1,3 +1,5 @@
+// Locations used in for map markers
+
 let locations = [
     {
         coords: {lat: 35.6962, lng: 139.5704},
