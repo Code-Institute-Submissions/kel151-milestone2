@@ -64,6 +64,14 @@
     margin-left: 19%;
 }
 
+/* Submit button */
+input[type=submit] {
+    color: white;
+    background-color: #6495ED;
+    border-radius: 20%;
+}
+
+/* Social media handles */
 .s-m {
     text-align: center;
     padding: 10px 0;
