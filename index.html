@@ -19,7 +19,7 @@
     <!--Required meta tag that's supposed to be after Bootstrap(CSS)-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-   <!-- EmailJS API  -->
+   <!-- EmailJS API (Code from EmailJS website)  -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
     <script type="text/javascript">
         (function(){
@@ -36,13 +36,18 @@
             });
         }
 
-        // Entry validation to prevent the submission of empty fields (Code from W3Schools)
+        // Entry validation JS to prevent the submission of empty fields (Code from W3Schools)
         function validateForm() {
-                var x = document.forms["contact-form"]["user_name", "user_email", "message"].value;
+                let x = document.forms["contact-form"]["user_name", "user_email", "message"].value;
                 if (x == "") {
                     alert("All fields must be filled");
                     return false;
                 }
+            }
+            
+        // JS to clear form after user clicks the submit button for better UX
+        function clearForm() {
+                document.getElementById("contact-form").reset();
             }
     </script>
 </head>
@@ -124,7 +129,7 @@
                         <input type="text" class="form-control" name="user_name" placeholder="Name">
                         <input type="email" class="form-control" name="user_email" placeholder="Email">
                         <textarea name="message" class="form-control" rows="3" placeholder="Message"></textarea>
-                        <input type="submit" value="Send">
+                        <input type="submit" value="Send" onclick="clearForm()">
                     </form>
 
                 </div>
