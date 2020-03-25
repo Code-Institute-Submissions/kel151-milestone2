@@ -1,3 +1,4 @@
+/* Welcome page with the tokoy scene background */
 .welcomepage {
     height:100vh;
     background-image: url(../images/tokyo2.jpg);
@@ -6,6 +7,7 @@
     
 }
 
+/* Title set in its own div */
 .title {
     width: 100%;
     padding: 1rem;
@@ -17,6 +19,7 @@
     opacity: 80%;  
 }
 
+/* About info set in its own div */
 .about {
     width: 100%;
     padding: 2rem;
@@ -28,6 +31,7 @@
     opacity: 80%;
 }
 
+/* Page map to be set on */
 .mappage {
     background-color: black;
     height: 100vh;
@@ -35,12 +39,14 @@
     text-align: center;
 }
 
+/* Actual map */
 #map {
     height: 80vh;
     width: 100%;
     border-radius: 3%;
 }
 
+/* Page contact with seoul scene background, where contact info to be set */
 .contactpage {
     height:100vh;
     background-image: url(../images/seoul3.jpg);
@@ -51,6 +57,7 @@
     
 }
 
+/* Contact form */
 .form-control {
     margin: 20px 0;
     width: 60%;
@@ -87,10 +94,12 @@
     transform: scale(1.6) rotate(25deg);
  }
 
+ /* Smooth scrolled enable to allow for a more seamless user experience */
  html {
     scroll-behavior: smooth;
 }
 
+/* Media queries used to enhance responsiveness and make title andl about info adapt better to different screen sizes */
  @media only screen and (min-width: 1000px) {
     .title{
           width: 20%
