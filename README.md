@@ -18,12 +18,9 @@ As a fan of video games, I want to be able to find locations that pertain to vid
 As someone who enjoys aesthetics, I want to view a sight that is both pleasing to the eye and on brand for the theme of "geeks" and "nerds".<p>
 
 ### Strategy
-My goal was to build a portfolio that allows the user to find and view the information they want in as little steps as possible (across all devices) without compromising aesthetic appeal.<p>
-It was important to me to design a colour-blindness friendly UX design. This is because, in all my reading about UX/UI, I did not come across many UX/UI designers that made it a point to accommodate the needs of people who can’t view the world like everyone else. In fact, Ivan Tuchkov highlighted this very point in an article, in which he reminds UX designers that:<p>
-<i>“People with regular vision and people with protanopia see the same image. In the eyes of colorblind, the flower and the background are almost in the same color. And if we talk about user interfaces, such perception leads to a bunch of problems: text becomes unreadable, call-to-action buttons inconspicuous, etc.”</i> (Tuchkov, 2018)<p>
-Tuchkov goes on to talk about how this issue can not only appear extremely discriminatory, but can also hurt the client’s aims:<p>
-<i>“Every type of color blindness causes inconvenience; this carries over to user experience. At worst, colorblind people cannot use a product at all. It’ll upset a lot of users and a business will lose potential clients too.”</i> (Tuchkov, 2018)<p>
-So, in this milestone project, I have taken upon myself the additional challenge of designing with colour-blindness in mind wherever I can.
+Tokyo is large city, known for many things such as food, fashion, technology, culture, etc. Through this milestone, I wanted to facilioat more specific interests and tailor the search for tourist spots to somewhat niche subjects. Therefore, my goal was to build a website that allowed the user to easily and swiftly find tourist pots in Tokyo, Japan, related to video games or anime and manga.<p>
+ Given that the project is centered upon Tokyo, and its prevailing themes are anime, manga, and video games, I wanted an aesthetic that would remain "on brand". Tokyo, particularly its gaming and tech scene, is known for its neons and flashing lights. I wanted to incoprate that element into the site's design while preventing them from being too overpowering.<p>
+  I wanted to keep the site wuite basic, hence the choice of 3 sections, so as not to detract from purpose and design. The utilization of 3 sections helps to build narrative of the site and its purpose in the user's mind, and I feel that greatly aids in yielding more potent user story.<p>
 
 ### Scope
 The purpose of this undertaking is to display my skills and projects in a way that is quick, simple and intuitive. It is meant to serve as a portfolio, showcasing my professional journey and career trajectory.<p>
