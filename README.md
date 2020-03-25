@@ -18,23 +18,15 @@ As a fan of video games, I want to be able to find locations that pertain to vid
 As someone who enjoys aesthetics, I want to view a sight that is both pleasing to the eye and on brand for the theme of "geeks" and "nerds".<p>
 
 ### Strategy
-Tokyo is large city, known for many things such as food, fashion, technology, culture, etc. Through this milestone, I wanted to facilioat more specific interests and tailor the search for tourist spots to somewhat niche subjects. Therefore, my goal was to build a website that allowed the user to easily and swiftly find tourist pots in Tokyo, Japan, related to video games or anime and manga.<p>
- Given that the project is centered upon Tokyo, and its prevailing themes are anime, manga, and video games, I wanted an aesthetic that would remain "on brand". Tokyo, particularly its gaming and tech scene, is known for its neons and flashing lights. I wanted to incoprate that element into the site's design while preventing them from being too overpowering.<p>
-  I wanted to keep the site wuite basic, hence the choice of 3 sections, so as not to detract from purpose and design. The utilization of 3 sections helps to build narrative of the site and its purpose in the user's mind, and I feel that greatly aids in yielding more potent user story.<p>
+Tokyo is large city, known for many things such as food, fashion, technology, culture, etc. Through this milestone, I wanted to facilitate more specific interests and tailor the search for tourist spots to somewhat niche subjects. Therefore, my goal was to build a website that allowed the user to easily and swiftly find tourist pots in Tokyo, Japan, related to video games or anime and manga.<p>
+  I wanted to keep the site quite basic, hence the choice of 3 sections, so as not to detract from purpose and design. The utilization of 3 sections helps to build narrative of the site and its purpose in the user's mind, and I feel that greatly aids in yielding more potent user story.<p>
 
 ### Scope
-The purpose of this undertaking is to display my skills and projects in a way that is quick, simple and intuitive. It is meant to serve as a portfolio, showcasing my professional journey and career trajectory.<p>
-  
-Having worked in the recuitment space, I understand that recruitrs and employers often don't have the time to sift through detailed resumés and portfolios. Additionally, being a marketing professional, I also understand that the attention span of the average buyer/user is growing shorter by the decade. Advertisements and promotions must be able to arrest attention and or convey a message within 2 seconds, lest they risk losing the onlooker forever.<p>
-
-Therefore, this portfolio will be slightly more narrow in scope than some others out there, and <strong>it will prioritise the more "at-a-glance" and "on-the-go" user.</strong>
-
+The purpose of this project was built a wesite that would show the suer the top 4 tourist spots in Tokyo, Japan, depending on whether they were interested in anime and manga or video games.<p>
+ This project was also an opportunity for me to display my skill in HTML, CSS, and JS, as well as showcase a my comptentence with the utilisation of APIs, aprtilcaurly those from Google and EmailJS.<p>
+ 
 ### Surface
-I decided to go with the blue, white, and pink colour scheme because my research showed that seemed to be a happy medium between a colour-blindness friendly aesthetic and an eye-catching and dynamic design. Many sources agreed that a minimalistic design was best so I opted to keep the general layout clean, clear, uncluttered.<p>
-
-From a purely stylistic point of view, I myself do favour the combination of blue and white anyway, for its minimalism, modern feel, and timeless quality. However, I decided to add a pop of pink to evoke a sense of dynamism and creativity, as I find that one of the few failings of blue and white coupled together is that it can come across a little boring, repetitive, and uninspired at times.
-
-I must add that I was inititially going to go with a predominatly greyscale scheme because it is by far the most colour-blindness friendly aesthetic, however, that felt a little too bland for my personal taste. So, I eventually opted to go for a white, blue, and pink combination while still designing with colour-blindness in mind in the places that I could. This is why I added texure and animations to the skill bars because research shows it is much easier for colour-blind individual to make out things that are textured or moving on a screen.<p>
+Given that the project is centered upon Tokyo, and its prevailing themes are anime, manga, and video games, I wanted an aesthetic that would remain "on brand". Tokyo, particularly its gaming and tech scene, is known for its neons and flashing lights. I wanted to incoprate that element into the site's design while preventing them from being too overpowering. Therefore, I opted for carefuly curated, theme-related images as background for the first and lst pages, separated by a respectable portion of blace space on the second page, to break up the wall of colour and prevent the aeshetic from being too jarring.<p>
  
 ### Skeleton
  <ul>
