@@ -42,16 +42,16 @@ Given that the project is centered upon Tokyo, and its prevailing themes are ani
 <ul>
   <li>I opted to use a single page format to make navigation much simpler and intuitive, meaning the user doesn't need to click back and forth between pages.</li>
   <li>The default setting for the navbar seemed to create a very stark and jarring transition to whatever you clicked on. It wasn't a very smooth effect. So, I opted for a smooth scrolling effect instead of just appearing on whatever navbar item you click on, and this made for a much nicer, more fluid experience.</li>
-  <li>I made the skill progress bars textured and animated because my research showed that it is often easier for colour-blind individuals to make out things that are textured and or moving on a screen.</li>
+  <li>I used marker clustering with the map markers to make it easier to view and interact with markers that were placed very clsoe together.</li>
  <li>I created the footer to mirror the navbar in design, being black. This made for a very balanced and symmetrical visual experience when both were present and visible on the screen.</li>
  <li>I included social media links in the footer and added a small rotation and colour changing animation to help enhance their visibility and presence.</li>
 </ul>
 
 ### Features left to implement
 <ul>
-  <li>I would like to develop a  better way to display my projects. As it is now, it isn't so bad because there aren't many to show. But, in the future, I will need to come up with a more econonic use of space in that section.</li>
-  <li>I would like to add an education sections to display that information more clearly and give it its own section. As it is now, it's mentioned in the About section, but I feel it would stand out more if it were given its own place.</li>
-  <li>I would like to improve the site's overall look by finding a more uniservsally suitable colour-scheme, because it became clear in the latter part of my testing phase that the pink I had chosen can appear very harsh for some people. An example of this is provided further below in the testing section of this readme. 
+  <li>I attempted to add a form validator to ensure no blank fields could be submitted in contact form, and I also attempt to create a fucntion that would clear the form upon submission for better UX. However, they didn't seem to work for me. In the future, I'd like to work on that a bit more and implement those features</li>
+  <li>I would like to include button interaction to the contact form button so that it does somethign or changes somehow when pressed so that the user can be sure they pressed the button. This would be better from a UI/UX perspective, and I hope to implement that in the future.</li>
+  <li>I would like to create a fucntion that creates a prompt upon submission to inform the user that their submission was successful. 
 
 ## Technologies Used
 <ul>
@@ -80,15 +80,7 @@ Given that the project is centered upon Tokyo, and its prevailing themes are ani
 ## Testing
 The first step of my testing began by using <a href="http://ami.responsivedesign.is/">Am I Responsive?</a> to deduce whether my project was indeed responsive and compatible across all devices, the results of which can be observed at the beginning of this readme in the responsiveness preview.
 
-The second stage involved sharing the deployed link with a few colleagues and friends to double check whether it was actually responsive or not, and this is where I ran into a curious issue. It would seem that the particular shade of pink that I used may appear differently on different devices, and this will probably negatively impact visbility for effected users. Below you will a screenshot of what how the site appears to me and most users compared to another screenshot of how it appears to a select few.
-
-This is what most users (myself included) see:
-![Colour Difference 1](assets/img/colourdiff1.PNG)
-
-This is what a small number of users may see:
-![Colour Difference 2](assets/img/colourdiff2.jpg)
-
-This occurs regardless of using DevTools or sites like Am I Responsive. So, essentially, if the colour appears correctly for you, then it will do so no matter what medium you view it through. Unfortunately, the same is true vice versa. While I remain unsure what the exact cause of this is, it would appear that this is may be due to one's individual device settings. This issue does seem to be localised to the minority, meaning that for the average user the project should appear normally. But this finding has given me a note of improvement and points me towards something that I can work to make better in the future.
+The second stage involved sharing the deployed link with a few colleagues and friends to double check whether it was actually responsive or not.
 
 The third step of my testing involved the utilization of [Code Verifier](https://validator.w3.org/), which yielded the following result:
 ![Code Verifier Test](assets/img/cvtest.PNG)
